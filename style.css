@@ -1,54 +1,79 @@
 
-.centered{
-    position: fixed;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%); 
-}
+
 html {
-  font-family: Arial;
-  font-size: 16px;
+  
   background: rgb(67, 101, 139);
 }
 
+/* .parent{
+  position:relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position:center;
+  top: 100%;
+  height: 200px;
+  width: 100%;
+  
+} */
+
+
+.name{
+  position: fixed;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.quote{
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
 .sidebar{
+  
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 20%;
   background-color: #041230;
   position: fixed;
-  height: 100%;
-  overflow: auto;
-  font-weight: bold;
-    
-  /* position: fixed;
-  width: 25%;
   height: 100vh;
-  background: #041230;
-  font-size: 0.65em; */
+  overflow: auto;
+  font-size: 0.75em;
+     
 }
 
 .nav{
-  /* position: relative; */
-  margin: 0 15%;
+  
+  position: relative;
+  margin: 0 10%;
+  
   text-align: right;
-  top: 50%;
-  transform: translate(-50%);
   font-weight: bold;
-}
+  
+  }
 
 .nav ul{
+  text-decoration: none;
   list-style: none;
-  margin: 3.2em 0;
-
-  line-height: 5em;
+  margin: 10em 0;
+  
+ 
+  line-height: 6em;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.4em;
-  
+  letter-spacing: 0.5em;
   display: block;
   transition: all ease-out;
-  /* background-image: linear-gradient(to right, #5e42a6, #b74e91); */
+  
 }
+
+li a:visited {
+  color: red
+}
+
   
 
