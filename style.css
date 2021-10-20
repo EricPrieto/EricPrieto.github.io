@@ -2,7 +2,7 @@
 
 html {
   
-  background: rgb(67, 101, 139);
+  background: rgba(49, 84, 148, 0.822);
 }
 
 /* .parent{
@@ -15,13 +15,11 @@ html {
   top: 100%;
   height: 200px;
   width: 100%;
-  
 } */
-
 
 .name{
   position: fixed;
-  top: 20%;
+  top: 30%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
@@ -42,38 +40,57 @@ html {
   position: fixed;
   height: 100vh;
   overflow: auto;
-  font-size: 0.75em;
+  font-size: 0.80em;
      
 }
 
 .nav{
-  
   position: relative;
   margin: 0 10%;
-  
   text-align: right;
   font-weight: bold;
-  
   }
 
 .nav ul{
   text-decoration: none;
   list-style: none;
-  margin: 10em 0;
-  
- 
+  margin: 15em 0;
   line-height: 6em;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.5em;
   display: block;
   transition: all ease-out;
-  
 }
 
-li a:visited {
-  color: red
+a:link {
+  /* color: #041230; */
+  text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+  color: rgba(#FFF, 0.75);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e3872d;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: b#e3872d;
+  text-decoration: none;
+}
+
+hr{
+  border: 0;
+  height: 3px;
+  /* background: #041230; */
+  background-image: linear-gradient(to right, #042377, #4660d3);
+}
   
 
