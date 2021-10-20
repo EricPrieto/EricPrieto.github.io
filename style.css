@@ -2,31 +2,38 @@
 
 html {
   
-  background: rgba(49, 84, 148, 0.822);
+  background: rgba(102, 103, 105, 0.822);
 }
 
-/* .parent{
+.parent{
   position:relative;
   top: 0;
   left: 0;
 }
 .image1 {
-  position:center;
-  top: 100%;
-  height: 200px;
-  width: 100%;
-} */
+  position:fixed;
+  top: 40%;
+  left: 42%;
+  height: 300px;
+  width: 500px;
+}
 
 .name{
   position: fixed;
-  top: 30%;
+  top: 25%;
   left: 60%;
   transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family:'Montserrat',sans-serif
 }
 
-.quote{
+.intro{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
   position: fixed;
-  top: 50%;
+  top: 35%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
