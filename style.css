@@ -1,8 +1,7 @@
 
 
 html {
-  
-  background: rgba(102, 103, 105, 0.822);
+  background: rgba(143, 185, 233, 0.822);
 }
 
 .parent{
@@ -12,15 +11,22 @@ html {
 }
 .image1 {
   position:fixed;
-  top: 40%;
+  top: 50%;
   left: 42%;
   height: 300px;
   width: 500px;
 }
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 150px;
+}
 
 .name{
   position: fixed;
-  top: 25%;
+  top: 30%;
   left: 60%;
   transform: translate(-50%, -50%);
   font-size: 30px;
@@ -33,18 +39,16 @@ html {
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
-  top: 35%;
+  top: 40%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
 
 .sidebar{
-  
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #041230;
-  position: fixed;
+  background-color: #141230;
   height: 100vh;
   overflow: auto;
   font-size: 0.80em;
